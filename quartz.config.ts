@@ -8,7 +8,7 @@ import * as Plugin from "./quartz/plugins"
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "🪴 Quartz 4.0",
+    pageTitle: "VorTX 3735",
     enableSPA: true,
     enablePopovers: true,
     analytics: {
@@ -39,11 +39,11 @@ const config: QuartzConfig = {
         },
         darkMode: {
           light: "#161618",
-          lightgray: "#393639",
+          lightgray: "#666666",
           gray: "#646464",
           darkgray: "#d4d4d4",
           dark: "#ebebec",
-          secondary: "#7b97aa",
+          secondary: "#7fc241",
           tertiary: "#84a59d",
           highlight: "rgba(143, 159, 169, 0.15)",
         },
@@ -69,6 +69,7 @@ const config: QuartzConfig = {
       Plugin.TableOfContents(),
       Plugin.CrawlLinks({ markdownLinkResolution: "shortest" }),
       Plugin.Description(),
+      Plugin.HardLineBreaks(),
     ],
     filters: [Plugin.RemoveDrafts()],
     emitters: [

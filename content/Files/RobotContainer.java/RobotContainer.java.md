@@ -1,4 +1,4 @@
-Initializing subsystems like the arm, shooter, intake, etc. with the IDs of the motors. Initializing the command file takes in a parameter of the subsystem which you are creating a command file for. This should all be initialized BEFORE the constructor. 
+RobotContainer is used for initializing subsystems like the arm, shooter, intake, etc. with the IDs of the motors. Initializing the command file takes in a parameter of the subsystem which you are creating a command file for. This should all be initialized BEFORE the constructor. 
 ```Ex:
 public static Intake intake = new Intake(16);
 public static IntakeCom intakecom = new IntakeCom(intake);

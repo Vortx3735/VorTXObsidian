@@ -17,6 +17,7 @@ section {
   background-color: var(--light);
   font-family: var(--bodyFont);
   color: var(--darkgray);
+  hyphens: none;
 }
 
 .text-highlight {
@@ -44,7 +45,7 @@ ul,
   color: var(--darkgray);
   fill: var(--darkgray);
   overflow-wrap: anywhere;
-  hyphens: auto;
+  hyphens: none;
 }
 
 .math {

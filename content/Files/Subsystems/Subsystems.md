@@ -1,1 +1,3 @@
-[[Basic Guide to Subsystems]]
+Subsystems represent the different functional units of the robot, each responsible for controlling a specific aspect of the robot's hardware. Drivetrain, intake, and shooter are all examples of a subsystem. These subsystems encapsulate the low-level control logic and sensor integration, allowing for modular and reusable code. For example, the drivetrain subsystem manages the motors and encoders that drive the robot, while other subsystems might control the robot's arm, intake mechanism, or shooter. By defining these subsystems, we can create commands that interact with them in a clean and organized manner, making it easier to implement complex behaviors and ensure reliable operation during competition.
+
+To learn more about specific subsystems, go to a [[Basic Guide to Subsystems]]
