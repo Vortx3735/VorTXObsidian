@@ -1,3 +1,6 @@
+---
+title: VorTX Programming
+---
 Welcome to the comprehensive guide on all the ins-and-outs you need for FRC programming, specifically tailored for Team VorTX 3735. This guide is designed to provide you with a detailed understanding of our programming practices, file structure, and the specific files and subsystems that make our robot function seamlessly. Whether you are a new member or an experienced programmer, this documentation will serve as your go-to resource for everything related to our team's codebase.
 
 #### Website Overview
