@@ -1,2 +1,2 @@
-We use pathplanner for auton.
-https://pathplanner.dev/home.html
+We use [pathplanner](https://pathplanner.dev/home.html) for auton.
+
