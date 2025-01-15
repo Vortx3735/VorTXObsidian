@@ -42,3 +42,12 @@ Once your code is ready to merge with the main branch you can create a pull requ
 Go to Github and click on Pull Requests. You should see a yellow box like the one below showing that your branch has changes on it. Click on "Compare and pull request"
 ![[Pasted image 20250114154240.png]]Make sure there are no merge errors, add a description and create the pull request:
 ![[Pasted image 20250114154437.png]]
+## Best Practices
+1. Commit and push to your branch often
+	1. This is a good backup for you as it forces you to save, and your code will be uploaded to GitHub every time you push
+	2. You can get your old code back if you make a mistake down the line
+	3. It's ok if your branch is not functional, the goal is just to keep main functional
+2. Test your code on the robot before creating a pull request
+	1. Checkout your branch on the driver station, and upload the code
+	2. Ensure the robot is still fully functional and there are no unintended consequences
+	3. This will give the reviewer confidence to approve your pull request quickly
