@@ -4,6 +4,8 @@ https://www.atlassian.com/git/tutorials/comparing-workflows/feature-branch-workf
 Download and Install 2025 WPILib
 https://docs.wpilib.org/en/stable/docs/zero-to-robot/step-2/wpilib-setup.html
 ## Clone the 2025 Repository
+
+`git clone https://github.com/Vortx3735/2025-Bot.git` 
 Open 2025 WPILib VSCode
 Click "Clone Repository" under Explorer
 ![[Pasted image 20250114145111.png]]
@@ -24,17 +26,22 @@ Open up Issue you are working on and click on "Create a Branch"
 You should see the following instructions for how to checkout using command line.
 ![[Pasted image 20250114145929.png]]
 You can also do this in VSCode:
-Git Fetch (This will detect the newly created branch)
+`git fetch`
 ![[Pasted image 20250114150114.png]]
-![[Pasted image 20250114150300.png]]Select your new branch:
+Select your new branch:
+`git checkout -b "branch name"` 
 ![[Pasted image 20250114150742.png]]
 Make your changes
 
 ## Committing
+`git add .`
 Click + to stage changes
 ![[Pasted image 20250114153738.png]]
+`git commit -m "Commit Message"` 
 Enter a description of what changes you made and click commit
-![[Pasted image 20250114153835.png]]Click Sync Changes to Push
+![[Pasted image 20250114153835.png]]
+`git push` 
+Click Sync Changes to Push
 ![[Pasted image 20250114153933.png]]
 ## Creating a Pull Request
 Once your code is ready to merge with the main branch you can create a pull request
