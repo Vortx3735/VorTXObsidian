@@ -45,6 +45,5 @@ jobs:
         id: deployment
         uses: actions/deploy-pages@v2
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
           timeout: 600000
           artifact_name: public-artifact
