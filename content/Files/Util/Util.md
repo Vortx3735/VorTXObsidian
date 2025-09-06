@@ -142,4 +142,14 @@ public class VorTXControllerXbox extends CommandXboxController {
   }
 }
 ```
-Becasue we were able to use our Custom libary in the Util folder we don't have to fill up other Subsystem or Command files with button bindings allowing us to have those files consist of Code focuses solely on their Subystem
+Becasue we were able to use our Custom libary in the Util folder we don't have to fill up other Subsystem or Command files with button bindings allowing us to have those files consist of code that focuses solely on their respective Subystem.
+
+We utilize the following Tenets to be able to make the most out of our Util Folder
+
+1.Keep it basic(should be reusable)
+
+2.Have good Articulatoin(Documentation should be good)
+
+3.Test Throughouly(bugs in Util effect the entire robot and cause problems for everyone)
+
+4.Prioritize Consise naming convections over rushed comments(XboxController > sticklibary)
