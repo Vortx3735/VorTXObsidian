@@ -103,6 +103,9 @@ Controller Ports: Make sure you're using the correct port numbers (We use 0 for 
 Button Types:
 
 .whileTrue(): Runs while button is held
+
 .onTrue(): Runs once when pressed
+
 .onFalse(): Runs once when released
+
 Default Commands: These run automatically when no other command is using the subsystem
