@@ -1,8 +1,6 @@
 # VorTX command structure
 
-In VorTX we use command-based programming to run our robot. Commands are basically segments of code that allow the robot to do different tasks. For example, moving an elevator to a set position could be a command. 
-Read up about this here: https://docs.wpilib.org/en/stable/docs/software/commandbased/commands.html
-
+In Vortx the our Command Structure is called the  Command-Based Programming Structure. What this does is split the operation of the robot's Mechanisms into 2 dfferent type of files:Subsystems and Commands(For Subsystems please see Basic Guide to Subsystems)
 ## base commands
 These commands that only use 1 subsystem. For example, move elevator to level 2. Put these commands directly into their respective subsystems.
 ![[Screenshot 2025-05-21 161328.png]]
