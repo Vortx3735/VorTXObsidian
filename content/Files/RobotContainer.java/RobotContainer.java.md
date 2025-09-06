@@ -51,7 +51,7 @@ public class RobotContainer {
 
 
 
-Uses button bindings that are available from the VorTX Xbox controller library. These are the options for bindings.
+Our Robots Use button bindings that are available from our custom VorTX Xbox controller library. These are the options for bindings.
 ```
 aButton, bButton, xButton, yButton, view, menu, ls, rs, lb, rb, lt, rt,
 povUp, povUpRight, povRight, povDownRight, povDown, povDownLeft, povLeft, povUpLeft
