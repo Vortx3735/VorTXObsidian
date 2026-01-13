@@ -1,18 +1,18 @@
-For 2025 we are using a workflow based on the Feature Branch Workflow. You can read up on it here:
+For 2026 we are using a workflow based on the Feature Branch Workflow. You can read up on it here:
 https://www.atlassian.com/git/tutorials/comparing-workflows/feature-branch-workflow
 ## Setting up Environment: 
-Download and Install 2025 WPILib
+Download and Install 2026 WPILib
 https://docs.wpilib.org/en/stable/docs/zero-to-robot/step-2/wpilib-setup.html
-## Clone the 2025 Repository
+## Clone the 2026 Repository
 
-`git clone https://github.com/Vortx3735/2025-Bot.git` 
-Open 2025 WPILib VSCode
+`git clone https://github.com/Vortx3735/2026-Bot.git` 
+Open 2026 WPILib VSCode
 Click "Clone Repository" under Explorer
 ![[Pasted image 20250114145111.png]]
 Clone from GitHub:
 ![[Pasted image 20250114145237.png]]
 ![[Pasted image 20250114145408.png]]
-Find the 2025-Bot Repo or use https://github.com/Vortx3735/2025-Bot.git
+Find the 2026-Bot Repo or use https://github.com/Vortx3735/2026-Bot.git
 Select the folder on your computer that you want to clone to and complete the process.
 
 Click on Source Control and Trust the Authors
