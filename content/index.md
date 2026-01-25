@@ -20,6 +20,7 @@ Our documentation website is organized to help you navigate through various aspe
     
     - **[[AutoAim]]**: Explore the advanced functionality of our auto-aim system, which uses advanced physics and vision processing to automatically align the robot with targets. This section covers the algorithms, hardware integration, and troubleshooting tips.
     - **[[Autonomous]]**: Detailed information on how we program the autonomous phase of the competition, including path planning, motion profiling, and integrating sensor feedback to achieve precise movements.
+    - **[[Simulation]]**: An explanation detailing our method of robot simulation, which allows us to program the robot without needing to wait for the robot to be built. 
 4. **Best Practices**
     
     - **Coding Standards**: Guidelines on coding standards and practices to ensure our code is clean, efficient, and easy to understand.

@@ -1,6 +1,5 @@
 # VorTX command structure
-At VorTX we use Command Based Programming a paradigm(think template) made for First Robotics the way it works 
-is we break the robot's files into 2 main parts
+
 ## base commands
 These commands that only use 1 subsystem. For example, move elevator to level 2. Put these commands directly into their respective subsystems.
 ![[Screenshot 2025-05-21 161328.png]]
