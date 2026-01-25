@@ -34,10 +34,10 @@ var talonFXSim = [actual motor object].getSimState();
     m_motorSimModel.setInputVoltage(motorVoltage.in(Volts));
     m_motorSimModel.update(0.020); // assume 20 ms loop time
 
-    talonFXSim.setRawRotorPosition(m_motorSimModel.getAngularPosition());
-    talonFXSim.setRotorVelocity(m_motorSimModel.getAngularVelocity());
+    talonFXSim.setRawRotorPosition(m_motorSimModel.getAngularPosition().times(kGearRatio));
+    talonFXSim.setRotorVelocity(m_motorSimModel.getAngularVelocity().times(kGearRatio));
 
-    position = m_motorSimModel.getAngularPosition().times(kGearRatio).in(Units.Rotations);
+    position = m_motorSimModel.getAngularPosition().in(Units.Rotations);
 ```
 This will periodically update the motor position using the applied voltage and the physics simulation. 
 You can then publish the position value to see it in the simulator:
